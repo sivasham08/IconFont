@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "newspaper";
+  src:url("fonts/newspaper.eot");
+  src:url("fonts/newspaper.eot?#iefix") format("embedded-opentype"),
+    url("fonts/newspaper.woff") format("woff"),
+    url("fonts/newspaper.ttf") format("truetype"),
+    url("fonts/newspaper.svg#newspaper") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "newspaper" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="td-icon-"]:before,
+[class*=" td-icon-"]:before {
+  font-family: "newspaper" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.td-icon-whatsapp:before {
+  content: "\e000";
+}
+.td-icon-home:before {
+  content: "\e001";
+}
+.td-icon-wordpress:before {
+  content: "\e002";
+}
+.td-icon-vk:before {
+  content: "\e003";
+}
+.td-icon-youtube:before {
+  content: "\e004";
+}
+.td-icon-yahoo:before {
+  content: "\e005";
+}
+.td-icon-rss:before {
+  content: "\e006";
+}
+.td-icon-share:before {
+  content: "\e007";
+}
+.td-icon-skype:before {
+  content: "\e008";
+}
+.td-icon-soundcloud:before {
+  content: "\e009";
+}
+.td-icon-stackoverflow:before {
+  content: "\e00a";
+}
+.td-icon-tumblr:before {
+  content: "\e00b";
+}
+.td-icon-twitter:before {
+  content: "\e00c";
+}
+.td-icon-vimeo:before {
+  content: "\e00d";
+}
+.td-icon-windows:before {
+  content: "\e00e";
+}
+.td-icon-stumbleupon:before {
+  content: "\e00f";
+}
+.td-icon-steam:before {
+  content: "\e010";
+}
+.td-icon-spotify:before {
+  content: "\e011";
+}
+.td-icon-linkedin:before {
+  content: "\e012";
+}
+.td-icon-googleplus:before {
+  content: "\e013";
+}
+.td-icon-blogger:before {
+  content: "\e014";
+}
+.td-icon-digg:before {
+  content: "\e015";
+}
+.td-icon-dribbble:before {
+  content: "\e016";
+}
+.td-icon-evernote:before {
+  content: "\e017";
+}
+.td-icon-facebook:before {
+  content: "\e018";
+}
+.td-icon-pinterest:before {
+  content: "\e019";
+}
+.td-icon-path:before {
+  content: "\e01a";
+}
+.td-icon-paypal:before {
+  content: "\e01b";
+}
+.td-icon-reddit:before {
+  content: "\e01c";
+}
+.td-icon-instagram:before {
+  content: "\e01d";
+}
+.td-icon-mail-1:before {
+  content: "\e01e";
+}
+.td-icon-logout:before {
+  content: "\e01f";
+}
+.td-icon-commenting:before {
+  content: "\e020";
+}
+.td-icon-mobile:before {
+  content: "\e021";
+}
+.td-icon-star-half:before {
+  content: "\e022";
+}
+.td-icon-star-empty:before {
+  content: "\e023";
+}
+.td-icon-grooveshark:before {
+  content: "\e024";
+}
+.td-icon-myspace:before {
+  content: "\e025";
+}
+.td-icon-lastfm:before {
+  content: "\e026";
+}
+.td-icon-forrst:before {
+  content: "\e027";
+}
+.td-icon-flickr:before {
+  content: "\e028";
+}
+.td-icon-deviantart:before {
+  content: "\e029";
+}
+.td-icon-delicious:before {
+  content: "\e02a";
+}
+.td-icon-behance:before {
+  content: "\e02b";
+}
+.td-icon-mail:before {
+  content: "\e02c";
+}
+.td-icon-star:before {
+  content: "\e02d";
+}
+.td-icon-user:before {
+  content: "\e02e";
+}
+.td-icon-search:before {
+  content: "\e02f";
+}
+.td-icon-views:before {
+  content: "\e030";
+}
+.td-icon-block-header:before {
+  content: "\e031";
+}
+.td-icon-category:before {
+  content: "\e032";
+}
+.td-icon-comments:before {
+  content: "\e033";
+}
+.td-icon-modal-close:before {
+  content: "\e034";
+}
+.td-icon-close-mobile:before {
+  content: "\e035";
+}
+.td-icon-close:before {
+  content: "\e036";
+}
+.td-icon-menu-down:before {
+  content: "\e037";
+}
+.td-icon-menu-up:before {
+  content: "\e038";
+}
+.td-icon-left-arrow:before {
+  content: "\e039";
+}
+.td-icon-right-arrow:before {
+  content: "\e03a";
+}
+.td-icon-down:before {
+  content: "\e03b";
+}
+.td-icon-left:before {
+  content: "\e03c";
+}
+.td-icon-right:before {
+  content: "\e03d";
+}
+.td-icon-menu-left:before {
+  content: "\e03e";
+}
+.td-icon-menu-right:before {
+  content: "\e03f";
+}
+.td-icon-up:before {
+  content: "\e040";
+}
+.td-icon-read-down:before {
+  content: "\e041";
+}
+.td-icon-modal-back:before {
+  content: "\e042";
+}
